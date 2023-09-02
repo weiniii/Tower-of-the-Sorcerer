@@ -1,0 +1,48 @@
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_Form(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(800, 600)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.textBrowser = QtWidgets.QTextBrowser(self.centralwidget)
+        self.textBrowser.setGeometry(QtCore.QRect(0, 360, 801, 191))
+        self.textBrowser.setObjectName("textBrowser")
+        self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
+        self.lineEdit.setGeometry(QtCore.QRect(20, 290, 561, 41))
+        self.lineEdit.setObjectName("lineEdit")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(20, 260, 58, 15))
+        self.label.setObjectName("label")
+        self.graphicsView_3 = QtWidgets.QGraphicsView(self.centralwidget)
+        self.graphicsView_3.setGeometry(QtCore.QRect(670, 130, 41, 41))
+        self.graphicsView_3.setObjectName("graphicsView_3")
+        self.graphicsView_4 = QtWidgets.QGraphicsView(self.centralwidget)
+        self.graphicsView_4.setGeometry(QtCore.QRect(710, 90, 41, 41))
+        self.graphicsView_4.setObjectName("graphicsView_4")
+        self.graphicsView_5 = QtWidgets.QGraphicsView(self.centralwidget)
+        self.graphicsView_5.setGeometry(QtCore.QRect(670, 50, 41, 41))
+        self.graphicsView_5.setObjectName("graphicsView_5")
+        self.graphicsView_6 = QtWidgets.QGraphicsView(self.centralwidget)
+        self.graphicsView_6.setGeometry(QtCore.QRect(750, 50, 41, 41))
+        self.graphicsView_6.setObjectName("graphicsView_6")
+        self.graphicsView_7 = QtWidgets.QGraphicsView(self.centralwidget)
+        self.graphicsView_7.setGeometry(QtCore.QRect(750, 130, 41, 41))
+        self.graphicsView_7.setObjectName("graphicsView_7")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 25))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.label.setText(_translate("MainWindow", "TextLabel"))
