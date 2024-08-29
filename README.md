@@ -1,5 +1,5 @@
 # Tower-of-the-Sorcerer
-This project was made in 2020 by three authors including me. It's about a game like tower of the scrcerer(魔塔). For simplicity, we just did something and used a simple interface.
+This project was made in 2019 by three authors including me. It's about a game like tower of the scrcerer(魔塔). For simplicity, we just did something and used a simple interface.
 
 
 This is the menu of this game. But I remember that the continue doesn't work.
